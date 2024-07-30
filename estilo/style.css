@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+
+:root {
+    --fonte1: "Sevillana", cursive;
+    --fonte2: Georgia, 'Times New Roman', Times, serif;
+    --fonte3: "Merienda", cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte2);
+    font-size: 1em;
+}
+
+header {
+    text-align: center;
+    background: url('../imagens/blue_lake.jpg!d') top center fixed;
+    background-size: cover;
+    color: black;
+}
+
+header > h1 {
+    padding-top: 70px;
+    margin-bottom: 2px;
+    font-size: 6.5vw;
+    font-family: var(--fonte2);
+}
+
+header > p {
+    padding-top: 20px;
+    padding-bottom: 55px;
+    font-size: 1em;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 90px 50px;
+    line-height: 5vw;
+}
+
+section > p {
+    font-family: var(--fonte3);
+    font-size: 2.8vw;
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem01 {
+    background: url('../imagens/blue_lake.jpg!d') center center fixed;
+    background-size: cover;
+}
+
+section.imagem02 {
+    background: url('../imagens/beautiful-feather.jpg') center center fixed;
+    background-size: cover;
+}
+
+section.fundo > p {
+    max-width: 55vw;
+    background-color: rgba(0, 0, 0, 0.688);
+    color: white;
+}
+
+section.fundodois > p {
+    max-width: 63vw;
+    background-color: rgba(0, 0, 0, 0.688);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
